@@ -22,14 +22,14 @@
    margin: 10px;
  }
  
- .authorImage {
+ .authorPicture {
    border-radius: 50%;
    width: 60px;
    height: 70px;
    margin: 10px;
  }
  
- .recipeImage {
+ .recipePicture {
    width: 20%;
    display: block;
    margin: 10px;

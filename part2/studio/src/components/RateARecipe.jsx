@@ -1,8 +1,15 @@
 let stars = ["⭐", "⭐ ⭐", "⭐ ⭐ ⭐", "⭐ ⭐ ⭐ ⭐", "⭐ ⭐ ⭐ ⭐ ⭐"];
 
-function RateARecipe() {
+
+
+function RateARecipe(){
+  function GiveRating() {
+    return <h3>{props<=5?stars[props.rating - 1]:null}</h3>;
+    }
+
+
   return stars;
-}
+  }
 
 export default RateARecipe;
 
